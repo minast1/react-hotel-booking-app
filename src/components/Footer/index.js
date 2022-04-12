@@ -6,7 +6,7 @@ function Footer() {
         <footer className='footer mt-5'>
             <ul className='d-flex flex-wrap justify-content-center align-items-center py-4'>
                 <li>
-                    <img src='/images/logo_mobile.png' alt='Cocos' height='36' />
+                    <img src='/images/skyline.png' alt='Cocos' height='80' width='100' />
                 </li>
                 <li>
                     <span className='ico ico-logo'></span>

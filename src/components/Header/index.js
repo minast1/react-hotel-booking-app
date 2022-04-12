@@ -1,3 +1,4 @@
+import { Avatar } from '@mui/material';
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import './style.scss';
@@ -16,9 +17,9 @@ function Header() {
     return (
         <header className='header'>
             <nav className='container d-flex align-items-center justify-content-center py-3 nav'>
-                <NavLink to='/' className='mobile-nav'>
-                    <img src='/images/logo_mobile.png' alt='Cocos' height='36' />
-                </NavLink>
+                <NavLink to='/' >
+            <img src='/images/skyline.png' alt='Cocos' height='60' width='90' />
+                 </NavLink>
                 <div className={`menu ${showClass}`}>
                     <NavLink to='/' exact>
                         Home
@@ -26,17 +27,9 @@ function Header() {
                     <NavLink to='/'>
                         Rooms
                     </NavLink>
+                   
                     <NavLink to='/'>
-                        Restaurant
-                    </NavLink>
-                    <NavLink to='/'>
-                        <img src='/images/logo.png' className='logo' alt='Cocos' />
-                    </NavLink>
-                    <NavLink to='/'>
-                        Weddings
-                    </NavLink>
-                    <NavLink to='/'>
-                        Membership
+                        About Us
                     </NavLink>
                     <NavLink to='/'>
                         Contact
